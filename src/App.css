@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../src/img/casa-kame-de-dragon-ball_3840x2160_xtrafondos.com.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App{
+  display: flex;
+ 
+}
+input {
+  display: block;
+  width: 250px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.form_container {
+  margin-left: 150px;
+  margin-top: 80px;
+
+}
+
+.box_principale {
+  background-color: rgba(0, 0, 255, 0.336);
+  max-width: 450px;
+  height: 500px;
+  border-radius: 30px;
+
+}
+
+.box_first {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box_first>input,
+.box_last>input,
+.box_email>input,
+.box_pass>input,
+.box_bth>input {
+  width: 185px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+.box_last {
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+
+.box_email>input,
+.box_bth>input,
+.box_pass>input {
+  width: 86%;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.boxfirst_last {
+  display: flex;
+
+}
+
+.box_email>input {
+  margin-top: 30px;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.bt {
+  margin-top: 30px;
+  padding: 20px;
+  margin-left: 40%;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/***USERLIST*/
+.box_UserList{
+  width: 700px;
+  height: 500px;
+  background-color: rgba(137, 43, 226, 0.356);
+  margin-left: 50px;
+  margin-top: 80px;
+  overflow: scroll;
+  border-radius: 20px;
+}
+.box_user{
+  text-align: center;
+}
+/***datos*/
+.box_date{
+  list-style: none;
+  border: 1px solid white;
+  margin-top: 10px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.box_date>b,
+.date{
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.btn1{
+  margin-left: 400px;
+  border: none;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.418);
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.btn2{
+  border: none;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.418);
+  text-transform: uppercase;
+  font-weight: bold;
+}
